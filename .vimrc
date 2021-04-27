@@ -17,9 +17,6 @@ nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
 
 set makeprg=bundle\ exec\ rspec\ -f\ QuickfixFormatter
 
-set encoding=utf8
-let g:airline_powerline_fonts = 1
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
